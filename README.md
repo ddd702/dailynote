@@ -1,0 +1,2 @@
+# dailynote
+笔记
