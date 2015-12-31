@@ -1,0 +1,21 @@
+body{
+  background-color: #f70;
+  color: #fff;
+}
+.project-name{
+	text-align: center;
+}
+.page-header,.main-content{
+	padding: 10px;
+}
+.plan-wrap{
+	list-style: none;
+}
+.plan-cell{
+	margin-bottom:30px;
+}
+.plan-name{
+	font-size: 24px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #fff;
+}
