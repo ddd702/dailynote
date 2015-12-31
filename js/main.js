@@ -2,20 +2,20 @@ var now = $.now();
 var Config = {
     plan: [{
         name: 'get a girlfriend before 2017!',
-        end: new Date('2017-1-1 00:00').getTime(),
+        end: new Date('2017/1/1 00:00').getTime(),
         sub: [],
         remark: [{
             con: '备注1'
         }]
     }, {
         name: '五月份前去云南旅游一番，预计6天（看心情）',
-        end: new Date('2016-5-1 00:00').getTime()
+        end: new Date('2016/5/1 00:00').getTime()
     },{
         name: '报考驾照',
-        end: new Date('2016-12-1 00:00').getTime()
+        end: new Date('2016/12/1 00:00').getTime()
     },{
     	name:'坚持每月看完一本书',
-    	end:new Date('2017-1-1 00:00').getTime()
+    	end:new Date('2017/1/1 00:00').getTime()
     }],
     timeCount: function(sTime, eTime, $dom) {
         var count = eTime - sTime;
